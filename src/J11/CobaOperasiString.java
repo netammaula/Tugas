@@ -10,24 +10,21 @@ package J11;
  *
  * @author netammaula
  */
-public class Praktikum01 {
-    public static void main(String[] args)
-    {
-        String identitas = "nama lengkap / kelas / no";
-        System.out.println("Neta Minkhatul Maula / XRPL3 / 31 : "+ identitas);
+Import java.util.Scanner;
+public class CobaOperasiString {
+    public static void main(String[] args)  {
+        
+        String identitas = "Neta Minkhatul Maula / XRPL3 / 31";
+        System.out.println("Identitas : "+ identitas);
         
         String x = "Operasi";
         System.out.println("isi variable x : "+ x);
         System.out.println("\""+ x + "\" panjang karakter = "+ x.length());
         
-        System.out.println("x adalah kosong : " + x.isEmpty());
+        System.out.println(" x adalah kosong : " + x.isEmpty());
         
         String y = "";
-        System.out.println("isi variable y : "+y);
+        System.out.println("isi variable y : "+ y);
         System.out.println("y adalah kosong : " + y.isEmpty());
-    {
-        
     }
-    }
-              
 }
